@@ -5,7 +5,7 @@
     <p>Name: {{ $cat -> name}}</p>
     <p>Race: {{$cat -> race}}</p>
     <p>CR: {{$cat -> cat_frid}}</p>
-    <a href="{{ route('cat.edit') }}">EDIT</a>
+    <a href="{{ route('cat.show', $cat -> id) }}">EDIT</a>
   </div>
   <a href="{{ route('cat.index')}}">Back</a>
 @endsection
