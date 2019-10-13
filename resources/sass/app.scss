@@ -6,3 +6,25 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1, h6 {
+  text-align: center;
+}
+
+.box-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.cat-box {
+  width: 10%;
+  border: 1px solid black;
+  margin: 10px;
+}
